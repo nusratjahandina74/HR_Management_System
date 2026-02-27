@@ -1,0 +1,19 @@
+# Dependencies
+/node_modules
+jspm_packages/
+web_modules/
+
+# Build/Coverage/Logs
+logs
+*.log
+coverage/
+.nyc_output
+build/Release
+dist/
+.next/
+.cache/
+
+# Environment
+.env
+.env.test
+
