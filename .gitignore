@@ -2,7 +2,10 @@
 /node_modules
 jspm_packages/
 web_modules/
-
+/.npm/
+/.eslintcache
+.npmrc
+npm-debug.log
 # Build/Coverage/Logs
 logs
 *.log
@@ -15,5 +18,7 @@ dist/
 
 # Environment
 .env
+.env.development
 .env.test
+.env.production
 
