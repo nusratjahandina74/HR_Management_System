@@ -16,7 +16,8 @@ name:{
     require: true
 },
 designation:{
-    type: String
+    type: String,
+    require : true
 },
 phoneNumber:{
     type: String,
@@ -36,6 +37,10 @@ gender:{
 dob : {
     type : String,
     require: true
+},
+isHold : {
+    type : Boolean,
+    default : false
 }
 })
 module.exports = mongoose.model("Profile", profileSchema)
